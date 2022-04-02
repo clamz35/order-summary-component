@@ -1,0 +1,19 @@
+:root {
+    --color-primary-300: #DFE6FB;
+    --color-primary-400: #717FA6;
+    --color-primary-500: #1F2E55;
+
+    --color-accent-300: #766CF1;
+    --color-accent-400: #382AE1;
+
+
+    --color-accent-contrast-400: #FFFFFF;
+
+    
+    --color-primary: var(--color-primary-400);
+    --color-accent: var(--color-accent-400);
+
+
+    --color-accent-contrast: var(--color-accent-contrast-400);
+
+}

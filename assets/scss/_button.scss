@@ -1,0 +1,28 @@
+.btn {
+    font-weight: bold;
+    color: var(--color-accent-contrast);
+    padding: 1.5rem;
+    background: var(--color-accent);
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+        background-color: var(--color-accent-300);
+    }
+
+    &--alt {
+        background: none;
+        color: var(--color-primary);
+        box-shadow: none;
+        padding: 0;
+        transition: color 0.2s ease;
+        &:hover {
+            background-color: none;
+            color: var(--color-primary-500);
+        }
+    }
+}

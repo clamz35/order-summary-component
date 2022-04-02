@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "liveSassCompile.settings.formats": [{
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/assets/css"
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/dist/assets/css"
+        }
+    ],
+    "liveSassCompile.settings.forceBaseDirectory": "/assets/scss"
+
+}
