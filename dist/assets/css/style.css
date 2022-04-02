@@ -238,6 +238,7 @@ h3 {
   box-shadow: none;
   padding: 0;
   transition: color 0.2s ease;
+  height: unset;
 }
 .btn--alt:hover {
   background-color: none;
