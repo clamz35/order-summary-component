@@ -211,6 +211,7 @@ h3 {
   }
   .card__container {
     margin-top: 2rem;
+    padding: 2.5rem;
   }
   .card h1 {
     font-size: 2.8rem;
