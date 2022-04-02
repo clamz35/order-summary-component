@@ -177,7 +177,7 @@ h3 {
 }
 .card__container-description {
   display: flex;
-  gap: 0.6rem;
+  gap: 0.3rem;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -188,6 +188,7 @@ h3 {
 .card__container-description-price {
   font-weight: 500;
   font-size: 1.4rem;
+  line-height: 1;
 }
 .card__footer {
   display: flex;
@@ -214,6 +215,9 @@ h3 {
   .card__container {
     margin-top: 2rem;
     padding: 2.5rem;
+  }
+  .card__container-description {
+    gap: 0.6rem;
   }
   .card__container-description-price {
     font-size: 1.6rem;
